@@ -1,4 +1,4 @@
-package classInit;
+package ClassAndInstance_Init;
 
 public class Son01 extends Father01{
     @Override

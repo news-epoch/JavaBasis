@@ -1,4 +1,4 @@
-package classInit;
+package ClassAndInstance_Init;
 
 
 public class Father01 {
