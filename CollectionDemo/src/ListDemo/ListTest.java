@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
+/**
+ * 特点：可重复。按序存储
+ */
 public class ListTest {
     public static void main(String[] args) {
         Collection<Student> c = new ArrayList<Student>();
