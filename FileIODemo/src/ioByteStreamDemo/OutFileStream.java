@@ -25,9 +25,12 @@ public class OutFileStream {
         f2.write(b1);
 //        f2.write((byte[])b2);
         f2.close();
+
         //3. 异常处理
         //  3.1 一般还是使用异常抛出来进行处理的，但是下面代码的健壮性还是要学会。
         FileOutputStream f3 = null;
+
+
         try {
             f3 = new FileOutputStream("FileIODemo/fox.txt");
             f3.write("35".getBytes(StandardCharsets.UTF_8));
@@ -44,5 +47,12 @@ public class OutFileStream {
                 }
             }
         }
+
+        FileOutputStream f4 =new FileOutputStream("FileIODemo/fox.txt");
+        //4. 字节流的输入方式,void write (byte[] b, int off, int len) 将len字节从指定的字节数组开始，从偏移量off 开始写入此文件输出流
+        byte[] b3 = {99,100,101,102,103};
+        f4.write(b3,1,3);
+        f4.close();
+
     }
 }
