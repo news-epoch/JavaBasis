@@ -12,6 +12,7 @@ import java.util.Scanner;
  * 4. 根据出现的字符对map集合做判断，并对次数进行++操作
  * 5. map集合通过判断来存放字符+出现次数
  * 6. 存储完后进行输出。
+ *
  */
 public class Practice01 {
     public static void main(String[] args) {
