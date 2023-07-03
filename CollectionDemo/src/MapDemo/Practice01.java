@@ -1,7 +1,5 @@
 package MapDemo;
 
-import com.sun.jdi.Value;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
