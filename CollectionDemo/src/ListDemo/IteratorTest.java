@@ -11,6 +11,7 @@ import java.util.List;
  * 普通for循环
  * iterator迭代器循环:其中iterator 默认里面有add的方法进行添加列表元素，可以有效防止预计修改次数和实际修
  * 改次数不相等造成的运行时异常。
+ * 测试
  */
 public class IteratorTest {
     public static void main(String[] args) {
